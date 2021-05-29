@@ -23,12 +23,12 @@ class FirstFragment : Fragment(), ContactListAdapter.ContactsClickListener {
         val view = binding.root
         binding.rvContacts.adapter = contactAdapter
         val c1 = ContactData("Sweta", 12, 1234567890, "abc@gmail.com", "Sweet home")
-        val c2 = ContactData("S", 12, 1234567890, "abc@gmail.com", "Sweet home")
-        val c3 = ContactData("Sw", 12, 1234567890, "abc@gmail.com", "Sweet home")
-        val c4 = ContactData("Swe", 12, 1234567890, "abc@gmail.com", "Sweet home")
-        val c5 = ContactData("Swet", 12, 1234567890, "abc@gmail.com", "Sweet home")
-        val c6 = ContactData("weta", 12, 1234567890, "abc@gmail.com", "Sweet home")
-        val c7 = ContactData("eta", 12, 1234567890, "abc@gmail.com", "Sweet home")
+        val c2 = ContactData("Sita", 12, 1234567890, "abc@gmail.com", "Sweet home")
+        val c3 = ContactData("Sangeeta", 12, 1234567890, "abc@gmail.com", "Sweet home")
+        val c4 = ContactData("Sheryl", 12, 1234567890, "abc@gmail.com", "Sweet home")
+        val c5 = ContactData("Shaffer", 12, 1234567890, "abc@gmail.com", "Sweet home")
+        val c6 = ContactData("Simon", 12, 1234567890, "abc@gmail.com", "Sweet home")
+        val c7 = ContactData("Sam", 12, 1234567890, "abc@gmail.com", "Sweet home")
         contactList = mutableListOf(c1, c2, c3, c4, c5, c6, c7)
 
         contactAdapter.setData(contactList)
